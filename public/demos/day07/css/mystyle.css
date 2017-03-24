@@ -1,0 +1,30 @@
+body{
+	font-family: "Helvetica";
+	padding: 0px;
+	margin: 0px;
+	background-color: black;
+}
+
+.container{
+	text-align: center;
+}
+
+.boxes{
+	display: inline-block;
+	width: 900px;
+	height: 1800px;
+	background-color: #333333;
+}
+
+ul{
+	margin: 0px;
+	padding: 0px;
+}
+
+.box{
+	width: 100px;
+	height: 100px;
+	display: inline-block;
+	list-style: none;
+	vertical-align: middle;
+}

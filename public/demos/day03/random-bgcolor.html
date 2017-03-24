@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+	<meta charset="utf-8">
+	<title>Title Page</title>
+	<link rel="stylesheet" type="text/css" href="./css/mystyle.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+</head>
+<body>
+	<div class="btn-container text-centred">
+		<button class="btn">Click Me</button>
+	</div>
+	<script type="text/javascript">
+	$(document).ready(function(){
+		var btn = $('.btn');
+		var max = 255;
+		var min = 0;
+		btn.click(function(){
+			var red = Math.floor(Math.random() * (max - min + 1)) + min;
+			var green = Math.floor(Math.random() * (max - min + 1)) + min;
+			var blue = Math.floor(Math.random() * (max - min + 1)) + min;
+			var color = 'rgb(' + red + ',' + green + ',' + blue +')';
+			$('body').css('background-color', color);
+		});
+	});
+
+
+	</script>
+</body>
+</html>

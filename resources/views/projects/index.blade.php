@@ -17,52 +17,25 @@
 		</div>
 	</div>
 </section>
-<section class="section">
+<section class="section" style="background-color: #f5f5f5">
 	<div class="container">
 		<div class="columns is-multiline">
-			<div class="column is-half">
-				<a href="/projects/open-government">
-					<div class="card-image">
-						<figure class="image is-4by3">
-							<img src="http://placehold.it/1280x960" alt="Image">
-						</figure>
-					</div>
-				</a>
-			</div>
-			<div class="column is-half">
-				<a href="projects/open-government">
-					<div class="card-image">
-						<figure class="image is-4by3">
-							<img src="http://placehold.it/1280x960" alt="Image">
-						</figure>
-					</div>
-					<div class="card-content">
-						<div class="media">
-							<div class="media-content">
-								<p class="title is-4">John Smith</p>
-								<p class="subtitle is-6">category 1 | category 2 | category 3</p>
-							</div>
-						</div>
-					</div>
-				</a>
-			</div>
-			<div class="column is-half">
-				<a href="projects/open-government">
-					<div class="card-image box">
-						<figure class="image is-4by3">
-							<img src="http://placehold.it/1280x960" alt="Image">
-						</figure>
-					</div>
-					<div class="card-content">
-						<div class="media">
-							<div class="media-content">
-								<p class="title is-4">John Smith</p>
-								<p class="subtitle is-6">category 1 | category 2 | category 3</p>
-							</div>
-						</div>
-					</div>
-				</a>
-			</div>
+			<lz-gallery src="{{ asset('images/league/cover.png') }}" href="/projects/league">
+				<template slot="title">League UX Research</template>
+				<template slot="client">League Inc.</template>
+			</lz-gallery>
+			<lz-gallery src="{{ asset('images/open-government/cover.png') }}" href="/projects/open-government">
+				<template slot="title">Open Goverment Web Design</template>
+				<template slot="client">City of Toronto</template>
+			</lz-gallery>
+			<lz-gallery src="{{ asset('images/playwalk/cover.png') }}" href="/projects/playwalk">
+				<template slot="title">Playwalk Mobile Design</template>
+				<template slot="client">Playwalk</template>
+			</lz-gallery>
+			<lz-gallery src="{{ asset('images/frontend-demos/cover.png') }}" href="/projects/frontend-demos">
+				<template slot="title">Frontend Demos</template>
+				<template slot="client">Personal Project</template>
+			</lz-gallery>
 		</div>
 	</div>
 </section>

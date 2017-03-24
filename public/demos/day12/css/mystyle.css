@@ -1,0 +1,43 @@
+body{
+	font-family: "Helvetica";
+	background-color: rgb(236, 240, 241);
+}
+
+h1{
+	font-size: 48px;
+	margin-bottom: 80px;
+}
+
+.container{
+	text-align: center;
+}
+
+.dice{
+	width: 150px;
+	height: 150px;
+	margin: 25px;
+	display: inline-block;
+	border: 1px solid black;
+	background-image: url(../img/6.png);
+
+}
+
+button{
+	width: 150px;
+	height: 44px;
+	font-size: 24px;
+	color: rgb(236, 240, 241);
+	background-color: rgb(44, 62, 80);
+	outline: none;
+	border: none;
+	margin-top: 60px;
+}
+
+button:hover{
+	background-color: rgb(52, 73, 94);
+}
+
+button:active{
+	background-color: rgb(236, 240, 241);
+	color: rgb(52, 73, 94);
+}

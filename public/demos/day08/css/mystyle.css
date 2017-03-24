@@ -1,0 +1,23 @@
+body{
+	font-family: "Helvetica";
+}
+
+.container{
+	text-align: center;
+}
+
+.pug{
+	width: 500px;
+	margin-top:20px;
+}
+
+.message{
+	width: 500px;
+	margin: 0 auto;
+}
+
+.message p{
+	text-align: right;
+}
+
+

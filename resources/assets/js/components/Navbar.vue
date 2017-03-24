@@ -2,7 +2,7 @@
  <div class="container">
    <nav class="nav">
     <div class="nav-left">
-      <a class="nav-item" href="/">
+      <a class="nav-item" href="/projects">
         <img src="http://bulma.io/images/bulma-logo.png" alt="Bulma logo">
     </a>
 </div>
@@ -26,7 +26,7 @@
 <!-- This "nav-menu" is hidden on mobile -->
 <!-- Add the modifier "is-active" to display it on mobile -->
 <div class="nav-right nav-menu">
-    <a class="nav-item is-active" @click="test">
+    <a class="nav-item is-active" href="/projects">
         Projects
     </a>
     <a class="nav-item">

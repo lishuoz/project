@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+	<meta charset="utf-8">
+	<title>More Shadow</title>
+	<link rel="stylesheet" type="text/css" href="./css/mystyle.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="content">
+			<img class="pug drop-shadow" src="./img/pug.jpg">
+		</div>
+		<div class="message">
+			<h1 class="text-shadow" onselectstart="return false">Pugs are like potato chips, you can't stop at just one.</h1>
+			<p class="text-shadow"  onselectstart="return false">- Pug Lovers</p>
+		</div>
+	</div>
+
+	<script type="text/javascript">
+	$(document).ready(function(){
+		var drop = 2;
+		var text = 2;
+		$('.drop-shadow').click(function(){
+			drop+=2;
+			shadow = drop.toString();
+			$(this).css('box-shadow', '0px 0px ' + shadow + 'px ' + shadow + 'px ' + '#888');
+		});
+		$('.text-shadow').click(function(){
+			text+=2;
+			shadow = text.toString();
+			$(this).css('text-shadow', '0px ' + shadow + 'px ' + shadow + 'px ' + '#888');
+		});
+	});
+
+	</script>
+
+</body>
+</html>

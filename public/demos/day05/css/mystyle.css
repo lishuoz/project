@@ -1,0 +1,35 @@
+body{
+	padding: 100px;
+	font-family: Monaco, Consolas, "Lucida Console", monospace;
+	background-color: rgb(236, 240, 241);
+	height: 4000px;
+}
+
+.scroll, .name{
+	color: rgb(189, 195, 199);
+	font-size: 20px;
+}
+
+
+.key,.code{
+	font-size: 40px;
+	width: 1000px;
+	letter-spacing: 8px;
+}
+
+.code{
+	position: fixed;
+}
+
+.code p, .key p{
+	line-height: 20px;
+}
+
+.key{
+	position: relative;
+	top: 80%;
+}
+
+.name{
+	text-align: right;
+}

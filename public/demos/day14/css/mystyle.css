@@ -1,0 +1,32 @@
+@font-face {
+	font-family: "Rockwell Extra Bold";
+	src: url(../font/rockwebb.ttf);
+}
+
+body{
+	background-color: #DFE2DB !important;
+	color: #191919 !important;
+}
+
+h1{
+	font-family: "Rockwell Extra Bold", "Rockwell Bold", monospace !important;
+	padding-top: 50px;
+}
+
+#message-box{
+	width: 300px;
+}
+
+.form-inline{
+	position: absolute;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.btn-primary{
+	background-color: #FFF056 !important;
+	border-color: #FFF056 !important;
+	color: #191919 !important;
+	font-weight: bold !important;
+}

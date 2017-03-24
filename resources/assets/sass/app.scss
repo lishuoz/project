@@ -1,3 +1,21 @@
 
 // Fonts
 @import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
+
+$turquoise: #88B04B;
+/*$turquoise: #838487;*/
+@import 'node_modules/bulma/bulma.sass';
+
+.portfolio-detail hr{
+	margin: 60px 0;
+}
+[v-cloak] {
+	display: none;
+}
+.portfolio-detail *{
+	margin: 30px 0;
+}
+.portfolio-image{
+	padding: 10px;
+	background-color: #f5f5f5;
+}

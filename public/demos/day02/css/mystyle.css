@@ -1,0 +1,29 @@
+body{
+	font-family: "Helvetica";
+	background-color: rgb(52, 73, 94);
+	color: rgb(236, 240, 241);
+}
+
+a{
+	color: rgb(241, 196, 15);
+
+}
+
+h1{
+	font-size: 48px;
+}
+
+.text-centred{
+	text-align: center;
+}
+
+
+.door{
+	width: 185px;
+	height: 300px;
+	background-color: green;
+	display: inline-block;
+	margin: 20px;
+}
+
+

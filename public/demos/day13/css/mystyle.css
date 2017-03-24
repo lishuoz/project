@@ -1,0 +1,58 @@
+body{
+	font-family: "Helvetica";
+}
+
+.container{
+	text-align: center;
+
+}
+
+.right, .left{
+	width: 400px;
+}
+
+.middle{
+	width: 200px;
+	height: 400px;
+	vertical-align: top;
+}
+
+.middle h1{
+	margin-top: 200px;
+}
+
+.game{
+	margin-left: 25px;
+	display: inline-block;
+}
+
+.btn{
+	display: inline-block;
+	width: 80px;
+	height: 50px;
+	outline: none;
+	font-size: 16px;
+	font-weight: bold;
+	border-radius: 4px;
+	background-color: #bdc3c7;
+}
+
+.btns{
+	margin: 10px;
+	float:right;
+	margin-right: 100px;
+}
+
+#rule{
+	margin-right: 500px;
+}
+
+#rule-img{
+	width: 600px;
+	float:left;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	top:50%;
+	left:50%;
+}
+
