@@ -14978,7 +14978,7 @@ exports.push([module.i, "\n.image-note p{\n\tline-height: 24px;\n}\n", ""]);
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(3)();
-exports.push([module.i, "\n.footer .container .content{\n  font-size: 11px !important;\n}\n.footer{\n  background-color: white !important;\n}\n", ""]);
+exports.push([module.i, "\n.footer .container .content{\n  font-size: 11px !important;\n}\n.footer{\n  background-color: white !important;\n  padding-bottom: 4rem;\n}\n", ""]);
 
 /***/ }),
 /* 41 */
@@ -32311,7 +32311,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
   }, [_c('a', {
     staticClass: "nav-item",
     attrs: {
-      "href": "/projects"
+      "href": "/"
     }
   }, [_c('img', {
     attrs: {

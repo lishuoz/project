@@ -49,7 +49,7 @@
 				<lz-image slot="image" src="{{ asset('images/open-government/co-creation') }}">
 				</lz-image>
 				<hr>
-				<h3 class="title is-4">Design and Craftsp</h3>
+				<h3 class="title is-4">Design and Crafts</h3>
 				<p class="is-6">I made four rapid iterations to the previous version after each discussion with stakeholders. The <a href="http://www1.toronto.ca/wps/portal/contentonly?vgnextoid=4550b9ca56ccf410VgnVCM10000071d60f89RCRD" target="_blank">new website</a> was launched in Oct 2015 to the public.</p>
 				<a href="http://www1.toronto.ca/wps/portal/contentonly?vgnextoid=4550b9ca56ccf410VgnVCM10000071d60f89RCRD" target="_blank">
 					<lz-image slot="image" src="{{ asset('images/open-government/design-00-disable') }}">
@@ -133,7 +133,7 @@
 <lz-section>
 	<template slot="content">
 		<a class="button is-large is-link" href="/projects">Go Back</a>
-		<a class="button is-large is-primary">Next Project</a>
+		<a class="button is-large is-primary" href="/projects/playwalk">Next Project</a>
 	</template>
 </lz-section>
 @endsection

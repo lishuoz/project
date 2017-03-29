@@ -12,7 +12,7 @@
 				Frontend Demos
 			</h1>
 			<h2 class="subtitle">
-				
+				Personal Project
 			</h2>
 		</div>
 	</div>
@@ -20,7 +20,10 @@
 
 <lz-section style="background-color: #f5f5f5" v-cloak>
 	<template slot="title">Storytelling</template>
-	<template slot="content">Once I heard a story about Jennifer Dewalt, a lady who quit her job and taught herself to code by building 180 websites in 180 days. I was shocked by this story because Jennifer didn't know how to code at all at the beginning. Therefore, I decided to do the same.</template>
+	<template slot="content">Once I heard a story about <a href="https://jenniferdewalt.com/">Jennifer Dewalt</a>, a lady who quit her job and taught herself to code by building 180 websites in 180 days. I was shocked by this story because Jennifer didn't know how to code at all at the beginning. Therefore, I decided to do the same.</template>
+	<lz-image slot="image" src="{{ asset('images/frontend-demos/banner-disable') }}">
+		<!-- 	<p slot="bottom">Smart phones have become the most distraction for students during study.</p> -->
+	</lz-image>
 </lz-section>
 
 <section class="section" v-cloak>
@@ -53,7 +56,7 @@
 <lz-section style="background-color: #f5f5f5">
 	<template slot="content">
 		<a class="button is-large is-link" href="/projects">Go Back</a>
-		<a class="button is-large is-primary">Next Project</a>
+		<a class="button is-large is-primary" href="/projects/league">Next Project</a>
 	</template>
 </lz-section>
 @endsection

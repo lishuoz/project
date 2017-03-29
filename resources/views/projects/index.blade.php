@@ -25,12 +25,16 @@
 				<template slot="client">League Inc.</template>
 			</lz-gallery>
 			<lz-gallery src="{{ asset('images/open-government/cover.png') }}" href="/projects/open-government">
-				<template slot="title">Open Goverment Web Design</template>
+				<template slot="title">Open Government Web Design</template>
 				<template slot="client">City of Toronto</template>
 			</lz-gallery>
 			<lz-gallery src="{{ asset('images/playwalk/cover.png') }}" href="/projects/playwalk">
 				<template slot="title">Playwalk Mobile Design</template>
 				<template slot="client">Playwalk</template>
+			</lz-gallery>
+			<lz-gallery src="{{ asset('images/focus/cover.png') }}" href="/projects/focus">
+				<template slot="title">Focus Mobile Design</template>
+				<template slot="client">IOS Project</template>
 			</lz-gallery>
 			<lz-gallery src="{{ asset('images/frontend-demos/cover.png') }}" href="/projects/frontend-demos">
 				<template slot="title">Frontend Demos</template>

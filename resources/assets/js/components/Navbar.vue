@@ -2,7 +2,7 @@
  <div class="container">
    <nav class="nav">
     <div class="nav-left">
-      <a class="nav-item" href="/projects">
+      <a class="nav-item" href="/">
         <img src="http://bulma.io/images/bulma-logo.png" alt="Bulma logo">
     </a>
 </div>

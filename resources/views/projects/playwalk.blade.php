@@ -255,7 +255,7 @@
 <lz-section>
 	<template slot="content">
 		<a class="button is-large is-link" href="/projects">Go Back</a>
-		<a class="button is-large is-primary">Next Project</a>
+		<a class="button is-large is-primary" href="/projects/focus">Next Project</a>
 	</template>
 </lz-section>
 @endsection

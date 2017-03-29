@@ -31,6 +31,10 @@ Route::get('/projects/frontend-demos', function () {
 	return view('projects.frontend-demos');
 });
 
+Route::get('/projects/focus', function () {
+	return view('projects.focus');
+});
+
 Route::get('/projects', function () {
 	return view('projects.index');
 });
