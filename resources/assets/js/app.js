@@ -18,6 +18,7 @@
  Vue.component('lz-image', require('./components/Image.vue'));
  Vue.component('lz-gallery', require('./components/Gallery.vue'));
  Vue.component('lz-footer', require('./components/Footer.vue'));
+ Vue.component('lz-card', require('./components/Card.vue'));
 
  const app = new Vue({
  	el: '#app'

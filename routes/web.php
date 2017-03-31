@@ -39,8 +39,8 @@ Route::get('/projects', function () {
 	return view('projects.index');
 });
 
-Route::get('/about', function () {
-	return view('about');
+Route::get('/moments', function () {
+	return view('moments');
 });
 
 Auth::routes();
