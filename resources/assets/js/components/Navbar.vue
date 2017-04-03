@@ -3,12 +3,12 @@
    <nav class="nav">
     <div class="nav-left">
       <a class="nav-item" href="/">
-        <img src="http://bulma.io/images/bulma-logo.png" alt="Bulma logo">
+        <img src="/logo.png" alt="Lishuo logo">
       </a>
     </div>
 
     <div class="nav-center">
-      <a class="nav-item" href="https://www.linkedin.com/in/lishuoz/">
+      <a class="nav-item" href="https://www.linkedin.com/in/lishuoz/" target="_blank">
         <span class="icon">
           <i class="fa fa-linkedin"></i>
         </span>
@@ -17,7 +17,7 @@
 
     <!-- This "nav-toggle" hamburger menu is only visible on mobile -->
     <!-- You need JavaScript to toggle the "is-active" class on "nav-menu" -->
-    <span class="nav-toggle">
+    <span class="nav-toggle" @click="toggleIsActive">
       <span></span>
       <span></span>
       <span></span>
@@ -25,11 +25,11 @@
 
     <!-- This "nav-menu" is hidden on mobile -->
     <!-- Add the modifier "is-active" to display it on mobile -->
-    <div class="nav-right nav-menu">
-      <a class="nav-item is-active" href="/projects">
+    <div class="nav-right nav-menu" :class="{'is-active': isActive}">
+      <a class="nav-item" href="/projects" :class="{'is-active': item == 'projects'}">
         My Projects
       </a>
-      <a class="nav-item" href="/moments">
+      <a class="nav-item" href="/moments" :class="{'is-active': item == 'moments'}">
         My Moments
       </a>
     </div>
@@ -39,6 +39,19 @@
 
 <script>
   export default {
-
+    props: ['item'], 
+    data(){
+      return {
+        isActive: false,
+      }
+    },
+    methods:{
+      toggleIsActive(){
+        if(this.isActive){
+          return this.isActive = false
+        }
+        return this.isActive = true
+      },
+    }
   }
 </script>

@@ -12504,7 +12504,23 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 
-/* harmony default export */ __webpack_exports__["default"] = {};
+/* harmony default export */ __webpack_exports__["default"] = {
+  props: ['item'],
+  data: function data() {
+    return {
+      isActive: false
+    };
+  },
+
+  methods: {
+    toggleIsActive: function toggleIsActive() {
+      if (this.isActive) {
+        return this.isActive = false;
+      }
+      return this.isActive = true;
+    }
+  }
+};
 
 /***/ }),
 /* 36 */
@@ -32298,13 +32314,39 @@ if (false) {
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _vm._m(0)
-},staticRenderFns: [function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
   return _c('div', {
     staticClass: "container"
   }, [_c('nav', {
     staticClass: "nav"
-  }, [_c('div', {
+  }, [_vm._m(0), _vm._v(" "), _vm._m(1), _vm._v(" "), _c('span', {
+    staticClass: "nav-toggle",
+    on: {
+      "click": _vm.toggleIsActive
+    }
+  }, [_c('span'), _vm._v(" "), _c('span'), _vm._v(" "), _c('span')]), _vm._v(" "), _c('div', {
+    staticClass: "nav-right nav-menu",
+    class: {
+      'is-active': _vm.isActive
+    }
+  }, [_c('a', {
+    staticClass: "nav-item",
+    class: {
+      'is-active': _vm.item == 'projects'
+    },
+    attrs: {
+      "href": "/projects"
+    }
+  }, [_vm._v("\n        My Projects\n      ")]), _vm._v(" "), _c('a', {
+    staticClass: "nav-item",
+    class: {
+      'is-active': _vm.item == 'moments'
+    },
+    attrs: {
+      "href": "/moments"
+    }
+  }, [_vm._v("\n        My Moments\n      ")])])])])
+},staticRenderFns: [function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _c('div', {
     staticClass: "nav-left"
   }, [_c('a', {
     staticClass: "nav-item",
@@ -32313,35 +32355,24 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     }
   }, [_c('img', {
     attrs: {
-      "src": "http://bulma.io/images/bulma-logo.png",
-      "alt": "Bulma logo"
+      "src": "/logo.png",
+      "alt": "Lishuo logo"
     }
-  })])]), _vm._v(" "), _c('div', {
+  })])])
+},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _c('div', {
     staticClass: "nav-center"
   }, [_c('a', {
     staticClass: "nav-item",
     attrs: {
-      "href": "https://www.linkedin.com/in/lishuoz/"
+      "href": "https://www.linkedin.com/in/lishuoz/",
+      "target": "_blank"
     }
   }, [_c('span', {
     staticClass: "icon"
   }, [_c('i', {
     staticClass: "fa fa-linkedin"
-  })])])]), _vm._v(" "), _c('span', {
-    staticClass: "nav-toggle"
-  }, [_c('span'), _vm._v(" "), _c('span'), _vm._v(" "), _c('span')]), _vm._v(" "), _c('div', {
-    staticClass: "nav-right nav-menu"
-  }, [_c('a', {
-    staticClass: "nav-item is-active",
-    attrs: {
-      "href": "/projects"
-    }
-  }, [_vm._v("\n        My Projects\n      ")]), _vm._v(" "), _c('a', {
-    staticClass: "nav-item",
-    attrs: {
-      "href": "/moments"
-    }
-  }, [_vm._v("\n        My Moments\n      ")])])])])
+  })])])])
 }]}
 module.exports.render._withStripped = true
 if (false) {

@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('navbar')
-@parent
+<lz-navbar item="moments"></lz-navbar>
 @endsection
 
 @section('content')

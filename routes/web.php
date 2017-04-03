@@ -42,7 +42,3 @@ Route::get('/projects', function () {
 Route::get('/moments', function () {
 	return view('moments');
 });
-
-Auth::routes();
-
-Route::get('/home', 'HomeController@index');

@@ -9,10 +9,12 @@
 	<div class="hero-body">
 		<div class="container">
 			<h1 class="title">
-				Medium title
+				<!-- Medium title -->
+				LISHUO ZHANG
 			</h1>
 			<h2 class="subtitle">
-				Medium subtitle
+				<!-- Medium subtitle -->
+				UI/UX Designer in Toronto, Canada
 			</h2>
 		</div>
 	</div>

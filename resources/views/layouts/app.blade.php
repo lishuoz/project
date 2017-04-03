@@ -8,7 +8,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'Laravel') }}</title>
+    <title>{{ config('app.name', 'Lishuo Design') }}</title>
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
@@ -24,7 +24,7 @@
     <body>
         <div id="app">
             @section('navbar')
-            <lz-navbar></lz-navbar>
+            <lz-navbar item="projects"></lz-navbar>
             @show
 
             @yield('content')

@@ -21,5 +21,5 @@
  Vue.component('lz-card', require('./components/Card.vue'));
 
  const app = new Vue({
- 	el: '#app'
+ 	el: '#app',
  });
