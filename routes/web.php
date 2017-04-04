@@ -42,3 +42,13 @@ Route::get('/projects', function () {
 Route::get('/moments', function () {
 	return view('moments');
 });
+
+Route::get('/resume', function () {
+	$filename = 'Resume_Lishuo_Zhang.pdf';
+	$path = public_path($filename);
+	return Response::make(file_get_contents($path), 200, [
+		'Content-Type' => 'application/pdf',
+		'Content-Disposition' => 'inline; filename="'.$filename.'"'
+		]);
+	
+});

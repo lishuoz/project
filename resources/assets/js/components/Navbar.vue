@@ -32,6 +32,9 @@
       <a class="nav-item" href="/moments" :class="{'is-active': item == 'moments'}">
         My Moments
       </a>
+      <a class="nav-item" href="/resume" target="_blank">
+        My Resume
+      </a>
     </div>
   </nav>
 </div>
