@@ -19,10 +19,8 @@
 		</div>
 	</div>
 </section>
-<figure class="image is-48x48 has-text-centered" id="cat">
-	<img src="{{ asset('paw.png') }}">
-</figure>
-<section class="section" style="background-color: #f5f5f5">
+<lz-pug></lz-pug>
+<section class="section" style="background-color: #f5f5f5;">
 	<div class="container">
 		<div class="columns is-multiline">
 			<lz-gallery src="{{ asset('images/league/cover.png') }}" href="/projects/league">
