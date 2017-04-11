@@ -2,7 +2,7 @@
   <footer class="footer">
     <div class="container">
       <div class="content has-text-centered is-6">
-      <p>Hand-coded with <a href="https://laravel.com/">Laravel</a>, <a href="https://vuejs.org/">Vue.js</a> and ❤️</p>
+      <p>Hand-coded with <a href="https://laravel.com/">Laravel</a>, <a href="https://vuejs.org/">Vue.js,</a> and ❤️</p>
         <p>© LISHUO ZHANG. All Wrongs Reserved.</p>
       </div>
     </div>

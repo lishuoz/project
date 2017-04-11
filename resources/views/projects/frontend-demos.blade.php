@@ -20,7 +20,7 @@
 
 <lz-section style="background-color: #f5f5f5" v-cloak>
 	<template slot="title">Storytelling</template>
-	<template slot="content">Once I heard a story about <a href="https://jenniferdewalt.com/">Jennifer Dewalt</a>, a lady who quit her job and taught herself to code by building 180 websites in 180 days. I was shocked by this story because Jennifer didn't know how to code at all at the beginning. Therefore, I decided to do the same.</template>
+	<template slot="content">There's an amazing lady, <a href="https://jenniferdewalt.com/">Jennifer Dewalt</a>, who decided to dive into the software world after taking grad school in the fine art field. Jennifer successfully trained herself to code by building 180 websites in 180 days. What's more astonishing, she had zero experience in coding beforehand and started all from scratch. Inspired and motivated by her story, I decided to train myself into coding by going through the same process.</template>
 	<lz-image slot="image" src="{{ asset('images/frontend-demos/banner-disable') }}">
 		<!-- 	<p slot="bottom">Smart phones have become the most distraction for students during study.</p> -->
 	</lz-image>
@@ -44,7 +44,7 @@
 					<li><a href="{{ asset('demos/day10/puppy_jiggller.html') }}" target="_blank">Day 10 Puppy Jiggler</a></li>
 					<li><a href="{{ asset('demos/day11/color_clock.html') }}" target="_blank">Day 11 Color Clock</a></li>
 					<li><a href="{{ asset('demos/day12/dice-roller.html') }}" target="_blank">Day 12 Dice Roller</a></li>
-					<li><a href="{{ asset('demos/day13/rspls.html') }}" target="_blank">Day 13 Rock Sissors Paper Lizard Spock</a></li>
+					<li><a href="{{ asset('demos/day13/rspls.html') }}" target="_blank">Day 13 Rock Scissors Paper Lizard Spock</a></li>
 					<li><a href="{{ asset('demos/day14/tough_love.html') }}" target="_blank">Day 14 Tough Love</a></li>
 					<li><a href="{{ asset('demos/day15/dropping_boxes.html') }}" target="_blank">Day 15 Dropping Boxes</a></li>
 				</ul>

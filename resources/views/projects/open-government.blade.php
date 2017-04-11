@@ -20,7 +20,7 @@
 
 <lz-section style="background-color: #f5f5f5" v-cloak>
 	<template slot="title">Storytelling</template>
-	<template slot="content">The Corporate Information Management Services unit wanted to redesign an City of Toronto Open Government web page for the public. The web page is intended to highlight the City’s diverse Open Government initiatives and activities while making it easy for the public to access City information and services.</template>
+	<template slot="content">The Corporate Information Management Services unit wanted to redesign a City of Toronto Open Government web page for the public. The web page is intended to highlight the City’s diverse Open Government initiatives and activities while making it easy for the public to access City information and services.</template>
 	<lz-image slot="image" src="{{ asset('images/open-government/banner-disable') }}">
 		<p slot="bottom">The City of Toronto is one of Canada’s leading public sector organizations with regards to Open Government.</p>
 	</lz-image>
@@ -60,14 +60,14 @@
 					<div class="column is-half">
 						<lz-image src="{{ asset('images/open-government/design-01') }}">
 							<p class="title is-6" slot="top"><strong>1st Draft</strong></p>
-							<p class="title is-6" slot="bottom">Created six entrance portals based on previous web page. Added live twitter plugin.
+							<p class="title is-6" slot="bottom">Created six entrance portals based on the previous web page. Added live twitter plugin.
 							</p>
 						</lz-image>
 					</div>
 					<div class="column is-half">
 						<lz-image src="{{ asset('images/open-government/design-02') }}">
 							<p slot="top"><strong>2nd Draft</strong></p>
-							<p class="title is-6" slot="bottom">Highlighted three major portals. Removed text from banner. Added sublevel portals and contact us section.</p>
+							<p class="title is-6" slot="bottom">Highlighted three major portals. Removed text from the banner. Added sublevel portals and contact us section.</p>
 						</lz-image>
 					</div>
 					<div class="column is-half">
@@ -85,7 +85,7 @@
 				</div>
 				<hr>
 				<h3 class="title is-4">Comparison</h3>
-				<p class="is-6">The new open government web page looks more accessiable and easy to navigate.</p>
+				<p class="is-6">The new open government web page looks more accessible and easy to navigate.</p>
 				<div class="columns is-multiline" slot="image">
 					<div class="column is-half">
 						<lz-image src="{{ asset('images/open-government/before') }}">

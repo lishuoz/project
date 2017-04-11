@@ -26,7 +26,7 @@
 </lz-section>
 <lz-section>
 	<template slot="title">Interviews and a Persona</template>
-	<template slot="content">Our team interviewed acquaintances who use wellness professionals and individuals who were introduced to League in a workplace setting. We created a persona to determine our target users. It provided our team with insight that guided us through the decision-making procces.</template>
+	<template slot="content">Our team interviewed acquaintances who use wellness professionals and individuals who were introduced to League in a workplace setting. We created a persona to determine our target users. It provided our team with insight that guided us through the decision-making process.</template>
 	<lz-image slot="image" src="{{ asset('images/league/persona') }}">
 	</lz-image>
 </lz-section>
@@ -43,8 +43,8 @@
 	</lz-image>
 </lz-section>
 <lz-section style="background-color: #f5f5f5">
-	<template slot="title">User Process Visulization</template>
-	<template slot="content">We created a few low-fidelity mockups by visulizing the user process map to identify the key elements in our design.</template>
+	<template slot="title">User Process Visualization</template>
+	<template slot="content">We created a few low-fidelity mockups by visualizing the user process map to identify the key elements in our design.</template>
 	<lz-image slot="image" src="{{ asset('images/league/user-process-design') }}">
 	</lz-image>
 </lz-section>
@@ -112,7 +112,7 @@
 				</ul>
 			</div>
 			<div class="column is-half has-text-left">
-				<p class="header"><strong>Achivement</strong></p>
+				<p class="header"><strong>Achievement</strong></p>
 				<p>Runner-up in <a href="http://kmdi.utoronto.ca/poster-session-gallery-from-past-to-present/">KMDI Poster Session Spring 2016</a></p>
 			</div>
 		</div>

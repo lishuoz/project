@@ -1,0 +1,55 @@
+	<!DOCTYPE html>
+	<html>
+	<head>
+		<title>Caterpillar</title>
+		<style type="text/css">
+			.circle{
+				background-color: red;
+				border-radius: 50%;
+				position: absolute;
+			}
+		</style>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+
+	</head>
+	<body style="background-color: black">
+		<div id="app">
+
+		</div>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				var left= 0;
+				var top = 0;
+				initCircle(10);
+				$(document).mousemove(function(event){
+					dleft = event.clientX;
+					dtop = event.clientY;
+					move();
+				});
+				function randomInt(min, max) {
+					return Math.floor(Math.random() * (max - min + 1) + min);
+				}
+				function move(){
+					left += (dleft - left) / randomInt(8,50);
+					top += (dtop - top) / randomInt(8, 50);
+					setInterval(function(){
+						$('.circle').css({left: left, top: top})
+					}, 30)
+				}
+				function initCircle(amount){
+					for (var i = 0; i <= amount; i++){
+						var size = randomInt(3, 65);
+						var color = "green";
+						$('#app').append('<div class="circle" id="circle '+ i +'"></div>');
+					}
+				}
+			})
+			
+
+
+
+
+
+		</script>
+	</body>
+	</html>

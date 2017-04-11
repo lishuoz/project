@@ -24,9 +24,9 @@
 
 <style>
 	#cat{
+		left: 10%;
 		position: relative;
 		bottom: -60px;
-		left: 10%;
 		z-index: -1;
 		-webkit-animation-name: example; 
 		-webkit-animation-duration: 3s; 

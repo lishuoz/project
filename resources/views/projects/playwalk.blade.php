@@ -44,12 +44,12 @@
 				</div>
 				<hr>
 				<h3 class="title is-4">Interviews</h3>
-				<p class="is-6">We interviewed 7 participants, both current members of the Playwalk community and potential users. The interviews were more directly aimed at finding solutions, sharing experience, and keeping engagement.</p>
+				<p class="is-6">We interviewed 7 participants, both current members of the Playwalk community and potential users. The interviews were more directly aimed at finding solutions, sharing experience, and keeping the engagement.</p>
 				<table class="table">
 					<thead>
 						<tr>
 							<td><strong>Initials</strong></td>
-							<td><strong>Rlation to Playwalk</strong></td>
+							<td><strong>Relation to Playwalk</strong></td>
 						</tr>
 					</thead>
 					<tbody>
@@ -79,7 +79,7 @@
 						</tr>
 						<tr>
 							<td>OM</td>
-							<td>Design Consultant, coordinator and artist participated in Playwalk 2013</td>
+							<td>Design Consultant, coordinator, and artist participated in Playwalk 2013</td>
 						</tr>
 					</tbody>
 				</table>
@@ -166,7 +166,7 @@
 				<div class="columns">
 					<div class="column is-one-third">
 						<lz-image slot="image" src="{{ asset('images/playwalk/testing-01-disable') }}">
-							<p slot="bottom" class="is-6"><strong>Tester One</strong>: Tester One was initially confused about the functionality and usability of the app, but after we explained the main idea, she thought it was really interesting. The adoptable suggestions she proposed were to show path or route of the mission due to safety concern, to provide options to choose level of mystery, and to include games like guessing the location in a shared picture.</p>
+							<p slot="bottom" class="is-6"><strong>Tester One</strong>: Tester One was initially confused about the functionality and usability of the app, but after we explained the main idea, she thought it was really interesting. The adoptable suggestions she proposed were to show path or route of the mission due to a safety concern, to provide options to choose a level of mystery, and to include games like guessing the location in a shared picture.</p>
 						</lz-image>
 					</div>
 					<div class="column is-one-third">
@@ -176,20 +176,20 @@
 					</div>
 					<div class="column is-one-third">
 						<lz-image slot="image" src="{{ asset('images/playwalk/testing-03-disable') }}">							
-							<p slot="bottom" class="is-6"><strong>Tester Three</strong>: Tester Three was confused about some icons like location pins on the map and user-created missions. He suggested putting mission age as the first filter on the list, and adding the function to share users experiences through other forms of social media. He also noted the limitations of offline functionality.</p>
+							<p slot="bottom" class="is-6"><strong>Tester Three</strong>: Tester Three was confused about some icons like location pins on the map and user-created missions. He suggested putting mission age as the first filter on the list and adding the function to share users experiences through other forms of social media. He also noted the limitations of offline functionality.</p>
 						</lz-image>
 					</div>
 				</div>
 				<hr>
 				<h3 class="title is-4">Testing Result</h3>
 				<p class="is-6">All three testers remarked on issues such as privacy and safety issues and gave us information on their visual design preferences. All three participants thought that the prototype was clear, self-explanatory, user-friendly, and did not have major navigation problems. We modified our prototype in a number of ways based on the testing session, as you can see below.</p>
-				<lz-image slot="image" src="{{ asset('images/playwalk/testing-04-disable') }}"><p slot="bottom">The above images represent two possible versions of discover page. Testers compared these two versions and concluded that the right one was much clearer. The left page was divided into six square images representing different missions. However, most of our test users said that each square contained so little information that it would be difficult to know what the mission is about. They would prefer more detailed information for each mission. Based on this feedback, we decided to go with the mission list interface. Each mission’s name, hashtags, difficulty, number of players, time, and popularity is displayed.</p>
+				<lz-image slot="image" src="{{ asset('images/playwalk/testing-04-disable') }}"><p slot="bottom">The above images represent two possible versions of discover page. Testers compared these two versions and concluded that the right one was much clearer. The left page was divided into six square images representing different missions. However, most of our test users said that each square contained so little information that it would be difficult to know what the mission is about. They would prefer more detailed information for each mission. Based on this feedback, we decided to go with the mission list interface. Each mission’s name, hashtags, difficulty, the number of players, time, and popularity is displayed.</p>
 				</lz-image>
-				<lz-image slot="image" src="{{ asset('images/playwalk/testing-05-disable') }}"><p slot="bottom">The above images are two versions of our map page. For the left version (used during testing), users complained that they had no idea about what each pin represented. At first, we changed our pins into different colors, but user still said that they had difficulty distinguishing the meanings behind the colors. Finally, we changed our icons into representations of the five senses with different colors. These allow users to quickly and intuitively understand the content represented by each pin.</p>
+				<lz-image slot="image" src="{{ asset('images/playwalk/testing-05-disable') }}"><p slot="bottom">The above images are two versions of our map page. For the left version (used during testing), users complained that they had no idea about what each pin represented. At first, we changed our pins into different colors, but the user still said that they had difficulty distinguishing the meanings behind the colors. Finally, we changed our icons into representations of the five senses with different colors. These allow users to quickly and intuitively understand the content represented by each pin.</p>
 				</lz-image>
 				<hr>
 				<h3 class="title is-4">Further Steps</h3>
-				<p class="is-6">Our team completed our goal of developing a high fidelity prototype for Playwalk through the use of Participatory Design techniques. The user testing helped us to partially answer a number of questions about how our users interact with the application in a real-world context. However, the testing seesion also raised new questions about how to redesign the application.</p>
+				<p class="is-6">Our team completed our goal of developing a high fidelity prototype for Playwalk through the use of Participatory Design techniques. The user testing helped us to partially answer a number of questions about how our users interact with the application in a real-world context. However, the testing session also raised new questions about how to redesign the application.</p>
 				<table class="table">
 					<thead>
 						<tr>
@@ -211,7 +211,7 @@
 							<td>Is the core navigation system used in the prototype suitable for the final app?<br>How can we make it easier for our users to find and use the core features of the app?<br>Are there any navigation problems that need to be fixed?</td>
 						</tr>
 						<tr>
-							<td>Were there any user needs unmet by the prototype?</td>
+							<td>Was there any user need unmet by the prototype?</td>
 							<td>What new features or functions can be added to the application?</td>
 						</tr>
 						<tr>

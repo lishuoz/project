@@ -20,9 +20,9 @@
 
 <lz-section style="background-color: #f5f5f5" v-cloak>
 	<template slot="title">Storytelling</template>
-	<template slot="content">The idea of Focus came from situation where most students found it hard to focus on their assignments due to the distractions of their phones. The goal of Focus is to change mobile phones from distractions into helpers for students during the study.</template>
+	<template slot="content">The idea of Focus came from a situation where most students found it hard to focus on their assignments due to the distractions of their phones. The goal of Focus is to change mobile phones from distractions into helpers for students during the study.</template>
 	<lz-image slot="image" src="{{ asset('images/focus/banner-disable') }}">
-		<p slot="bottom">Smart phones have become the most distraction for students during study.</p>
+		<p slot="bottom">Smartphones have become the most distraction for students during study.</p>
 	</lz-image>
 </lz-section>
 
@@ -31,10 +31,10 @@
 		<div class="columns is-multiline has-text-centered">
 			<div class="column is-8 is-offset-2 portfolio-detail">
 				<h3 class="title is-4">1 Apper + 2 Developers</h3>
-				<p class="is-6">Focus is a project for <a href="http://www.eecg.utoronto.ca/~jayar/ece1778/"><em>Creative Applications for Mobile Devices</em></a>. This course educated how designers and developers should work together and co-create a creative mobile applications. Our group consists of three members: one apper (i.e. product designer) and two developers. We brainstormed the idea and did research on similar products. As a designer, I figured out the user-flow and draw low-fidelity wireframes. With the wireframes, developers coded and implemented the application.</p>
+				<p class="is-6">Focus is a project for <a href="http://www.eecg.utoronto.ca/~jayar/ece1778/"><em>Creative Applications for Mobile Devices</em></a>. This course educated how designers and developers should work together and co-create a creative mobile application. Our group consists of three members: one apper (i.e. product designer) and two developers. We brainstormed the idea and did research on similar products. As a designer, I figured out the user-flow and draw low-fidelity wireframes. With the wireframes, developers coded and implemented the application.</p>
 				<hr>
 				<h3 class="title is-4">Overall Design</h3>
-				<p class="is-6">We want Focus to help students improve study efficiency by using <a href="https://en.wikipedia.org/wiki/Pomodoro_Technique">Pomodoro</a> technique, relax their body and minds by taking serveral deep breaths, and keep a right sitting posture during each pomodoro.</p>
+				<p class="is-6">We want Focus to help students improve study efficiency by using <a href="https://en.wikipedia.org/wiki/Pomodoro_Technique">Pomodoro</a> technique, relax their body and minds by taking several deep breaths, and keep a right sitting posture during each Pomodoro.</p>
 				<lz-image src="{{ asset('images/focus/overall-design-disable') }}">
 					<div class="columns is-multiline" slot="bottom">
 						<div class="column is-one-third">
@@ -90,16 +90,16 @@
 				<h3 class="title is-4">Design and Crafts</h3>
 				<p class="is-6"></p>
 				<lz-image slot="image" src="{{ asset('images/focus/design-01') }}">
-					<p slot="bottom">Set Timer: Users click Start button and type how many pomodoros they want to get.</p>
+					<p slot="bottom">Set Timer: Users click Start button and type how many Pomodoros they want to get.</p>
 				</lz-image>
 				<lz-image slot="image" src="{{ asset('images/focus/design-02') }}">
-					<p slot="bottom">Completing a pomodoro will get users a red pomodoro and aborting will get the user a purple one. Users can share their achivement to social media.</p>
+					<p slot="bottom">Completing a Pomodoro will get users a red Pomodoro and aborting will get the user a purple one. Users can share their achivement to social media.</p>
 				</lz-image>
 				<lz-image slot="image" src="{{ asset('images/focus/design-03') }}">
-					<p slot="bottom">Focus requires users to take three deep breath before studying. With user exhaling to the microphone, the balloon will get bigger until it explodes. After three deep breaths, the grey button will be activated and users can get started to study.</p>
+					<p slot="bottom">Focus requires users to take three deep breath before studying. With user exhaling to the microphone, the balloon will get bigger until it explodes. After three deep breaths, the gray button will be activated and users can get started to study.</p>
 				</lz-image>
 				<lz-image slot="image" src="{{ asset('images/focus/design-04') }}">
-					<p slot="bottom">During each pomodoro, Focus will continuously monitor user’s sitting posture based on the distance data between his eyes and mouth from Facial Detector. If the user sits too inclined or too low, the main screen will turn semitransparent and a red rectangle will appear to alert the user put his head back to the area.</p>
+					<p slot="bottom">During each Pomodoro, Focus will continuously monitor user’s sitting posture based on the distance data between his eyes and mouth from Facial Detector. If the user sits too inclined or too low, the main screen will turn semi-transparent and a red rectangle will appear to alert the user put his head back to the area.</p>
 				</lz-image>
 			</div>
 		</div>
