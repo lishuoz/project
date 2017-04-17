@@ -35,6 +35,10 @@ Route::get('/projects/focus', function () {
 	return view('projects.focus');
 });
 
+Route::get('/projects/vuereact', function () {
+	return view('projects.vuereact');
+});
+
 Route::get('/projects', function () {
 	return view('projects.index');
 });

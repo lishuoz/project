@@ -1,0 +1,75 @@
+  <!DOCTYPE html>
+  <html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Day 03 Handling Events</title>
+    <script src="https://unpkg.com/react@latest/dist/react.js"></script>
+    <script src="https://unpkg.com/react-dom@latest/dist/react-dom.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+    <script src="https://unpkg.com/vue@2.2.6"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.4.0/css/bulma.css">
+    <link rel="stylesheet" type="text/css" href="../css/code.css">
+    <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
+  </head>
+  <body>
+    <section class="section">
+      <div class="containerainer">
+        <h2 class="title is-5">Components</h2>
+        <div class="columns">
+          <div class="column is-half">
+            <div id="vue" class="block">
+              <button class="button" @click="showAlert">Click me if you like Vue.js</button>
+            </div>
+            <pre class="prettyprint lang-javascript">
+var app = new Vue({
+  el: '#vue',
+  methods: {
+    showAlert(){
+      alert('Thanks for choosing Vue');
+    }
+  }
+})
+            </pre>
+          </div>
+          <div class="column is-half" >
+            <div id="react" class="block"></div>
+            <pre class="prettyprint lang-javascript">
+const element = 
+  &lt;button className="button" onClick={showAlert}&gt;
+    React Fan?
+  &lt;/button&gt;
+    
+function showAlert(){
+  alert('Good for you!')
+}
+    
+ReactDOM.render(
+  element,
+  document.getElementById('react')
+)
+            </pre>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script>
+      var app = new Vue({
+        el: '#vue',
+        methods: {
+          showAlert(){
+            alert('Thanks for choosing Vue');
+          }
+        }
+      })
+    </script> 
+    <script type="text/babel">
+    const element = <button className="button" onClick={showAlert}>React Fan?</button>
+    function showAlert(){
+      alert('Good for you!')
+    }
+    ReactDOM.render(
+      element,
+      document.getElementById('react')
+    )
+    </script>
+  </body>

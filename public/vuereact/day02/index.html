@@ -1,0 +1,91 @@
+  <!DOCTYPE html>
+  <html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Day 02 Components</title>
+    <script src="https://unpkg.com/react@latest/dist/react.js"></script>
+    <script src="https://unpkg.com/react-dom@latest/dist/react-dom.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+    <script src="https://unpkg.com/vue@2.2.6"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.4.0/css/bulma.css">
+    <link rel="stylesheet" type="text/css" href="../css/code.css">
+    <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
+  </head>
+  <body>
+    <section class="section">
+      <div class="containerainer">
+        <h2 class="title is-5">Components</h2>
+        <div class="columns">
+          <div class="column is-half">
+            <div id="vue" class="block">
+              <welcome></welcome>
+            </div>
+            <pre class="prettyprint lang-javascript">
+Vue.component('welcome', {
+  template: '&lt;div&gt;Welcome, {{name}} &lt;/div&gt;',
+    data(){
+      return {
+        name: 'Sara'
+      }
+    }
+})
+
+var app = new Vue({
+  el: '#vue',
+})
+    </pre>
+  </div>
+  <div class="column is-half" >
+    <div id="react" class="block"></div>
+    <pre class="prettyprint lang-javascript">
+function Welcome(props){
+  return &lt;div&gt;Hello, {props.name}&lt;/div&gt;;
+}
+
+function App(){
+  return (
+    &lt;div&gt;
+      &lt;Welcome name="Sara" /&gt;
+    &lt;/div&gt;
+  );
+}
+
+ReactDOM.render(
+  &lt;App /&gt;,
+  document.getElementById('react')
+)
+    </pre>
+  </div>
+</div>
+</div>
+</section>
+<script>
+  Vue.component('welcome', {
+    template: '<div>Welcome, {{name}} </div>',
+    data(){
+      return {
+        name: 'Sara'
+      }
+    }
+  })
+  var app = new Vue({
+    el: '#vue',
+  })
+</script> 
+<script type="text/babel">
+  function Welcome(props){
+  return <div>Hello, {props.name}</div>;
+}
+function App(){
+return (
+<div>
+  <Welcome name="Sara" />
+</div>
+);
+}
+ReactDOM.render(
+<App />,
+document.getElementById('react')
+)
+</script>
+</body>

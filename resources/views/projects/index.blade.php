@@ -43,6 +43,10 @@
 				<template slot="title">Frontend Demos</template>
 				<template slot="client">Personal Project</template>
 			</lz-gallery>
+			<lz-gallery src="{{ asset('images/vuereact/cover.png') }}" href="/projects/vuereact">
+				<template slot="title">Vue.js vs React</template>
+				<template slot="client">Personal Project</template>
+			</lz-gallery>
 		</div>
 	</div>
 </section>

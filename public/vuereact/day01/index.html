@@ -1,0 +1,63 @@
+  <!DOCTYPE html>
+  <html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Day 01 Rendering Elements</title>
+    <script src="https://unpkg.com/react@latest/dist/react.js"></script>
+    <script src="https://unpkg.com/react-dom@latest/dist/react-dom.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+    <script src="https://unpkg.com/vue@2.2.6"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.4.0/css/bulma.css">
+    <link rel="stylesheet" type="text/css" href="../css/code.css">
+    <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
+  </head>
+  <body>
+    <section class="section">
+      <div class="containerainer">
+        <h2 class="title is-5">Rendering Elements</h2>
+        <div class="columns">
+          <div class="column is-half">
+            <div id="vue" class="block">
+              {{ message }}
+            </div>
+            <pre class="prettyprint lang-javascript">
+
+var app = new Vue({
+  el: '#vue',
+  data: {
+    message: "Hello, VUE.js"
+  }
+})
+        </pre>
+      </div>
+      <div class="column is-half" >
+        <div id="react" class="block"></div>
+        <pre class="prettyprint lang-javascript">
+
+const element = &lt;p&gt;Hello, React&lt;/p&gt;;
+
+ReactDOM.render(
+  element,
+  document.getElementById('react')
+)
+        </pre>
+      </div>
+    </div>
+  </div>
+</section>
+<script>
+  var app = new Vue({
+    el: '#vue',
+    data: {
+      message: "Hello, VUE.js"
+    }
+  })
+</script> 
+<script type="text/babel">
+  const element = <p>Hello, React</p>;
+  ReactDOM.render(
+  element,
+  document.getElementById('react')
+  )
+</script>
+</body>
